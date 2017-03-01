@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:weightSum="1"
+    android:background="@drawable/layout_corner">
+
+    <LinearLayout
+        android:layout_width="550dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:maxWidth="400dp"
+            android:id="@+id/test"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="How would you rate the event on a five star scale ?"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:minHeight="100dp"
+            android:textColor="@color/questionColor"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:minWidth="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleType="fitCenter"
+                android:src="@drawable/excellent"
+                android:id="@+id/bExcellent"
+                style="?attr/buttonBarButtonStyle"
+                android:background="#00000000"
+                android:textAllCaps="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/tvExcellent"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Excelllent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/good"
+                android:id="@+id/bGood"
+                style="?attr/buttonBarButtonStyle"
+                android:background="#00000000"
+                android:textAllCaps="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/tvGood"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Good"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+                <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:scaleType="fitCenter"
+                android:src="@drawable/average"
+                android:id="@+id/bAverage"
+                style="?attr/buttonBarButtonStyle"
+                android:background="#00000000"
+                android:textAllCaps="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.25"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/tvAverage"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Average"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/poor"
+                android:id="@+id/bPoor"
+                style="?attr/buttonBarButtonStyle"
+                android:background="#00000000"
+                android:textAllCaps="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/tvPoor"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Poor"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/single_choice_layout.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/single_choice_layout.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/smiley_layout.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/smiley_layout.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/preview.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/preview.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/dichot_layout.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/dichot_layout.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/rating_layout.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/rating_layout.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/jodiwaljay/Desktop/TakeBack/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/checklist_layout.xml",
+        "source": "/home/jodiwaljay/Desktop/TakeBack/app/src/main/res/layout-sw600dp/checklist_layout.xml"
+    }
+]

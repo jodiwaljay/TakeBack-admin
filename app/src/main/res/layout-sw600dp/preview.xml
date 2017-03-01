@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/preview_container">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/themeColor">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="550dp"
+                android:orientation="vertical"
+                android:background="@color/themeColor"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saurav Solutions"
+                    android:textColor="#263238"
+                    android:textSize="45sp"
+                    android:id="@+id/tvCompanyName"
+                    android:minWidth="300dp"
+                    android:maxWidth="500dp"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cabs to trust"
+                    android:textColor="#0057A0"
+                    android:minWidth="300dp"
+
+                    android:id="@+id/tvCompanyDesc"
+                    android:maxWidth="500dp"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="2383 Park Avenue Jeffersonville, IN 47130"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#5E2C0B"
+                    android:minWidth="300dp"
+                    android:id="@+id/tvCompanyAdd"
+                    android:maxWidth="500dp"
+                    android:textSize="25sp"
+                    android:gravity="start|left"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="jodiwaljay@cabme.in"
+                        android:minWidth="150dp"
+                        android:textColor="#303030"
+                        android:id="@+id/tvCompanyEmail"
+                        android:gravity="start|left"
+                        android:maxWidth="250dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="350dp"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+917737138973"
+                            android:minWidth="150dp"
+                            android:maxWidth="250dp"
+                            android:layout_gravity="end|right"
+                            android:textSize="20sp"
+                            android:textColor="#303030"
+                            android:id="@+id/tvPhone"
+                            android:gravity="end|right"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fax : 011-97894276"
+                            android:minWidth="150dp"
+                            android:layout_gravity="end|right"
+                            android:textSize="20sp"
+                            android:id="@+id/tvFax"
+                            android:textColor="#303030"
+                            android:maxWidth="250dp"
+                            android:gravity="end|right"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_container"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" />
+
+
+            <LinearLayout
+                android:layout_width="550dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="7dp"
+                android:elevation="7dp"
+                android:background="@drawable/layout_corner">
+
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="22sp"
+                    android:lines="5"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:id="@+id/etComments"
+                    android:gravity="center"
+                    android:hint="Please write your valuable comments here">
+                </EditText >
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="550dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@color/themeColor"
+                >
+
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="25sp"
+                    android:inputType="textCapWords"
+                    android:gravity="center_horizontal"
+                    android:minWidth="150dp"
+                    android:lines="1"
+                    android:id="@+id/etUserName"
+                    android:hint="Your Name"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22sp"
+                    android:minWidth="150dp"
+                    android:lines="1"
+                    android:inputType="phone"
+                    android:id="@+id/etUserPhone"
+                    android:gravity="center_horizontal"
+                    android:hint="Phone no."/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22sp"
+                    android:minWidth="180dp"
+                    android:lines="1"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/etUserEmail"
+                    android:gravity="center_horizontal"
+                    android:hint="Your Email Address"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="23sp"
+                    android:lines="3"
+                    android:inputType="textCapSentences"
+                    android:id="@+id/etUserAddress"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:hint="Address"/>
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/bSubmitFeedback"
+                android:text="Submit"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:visibility="gone"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonshape"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

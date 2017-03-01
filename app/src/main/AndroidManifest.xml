@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elegance.takeback">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_feedback"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Form_Creation"
+            android:label="Take Back Admin"
+            android:icon="@drawable/icon_feedback"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label=" "
+            android:icon="@drawable/icon_feedback"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".AskCompanyDetails"
+            android:label="Create Company"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.ASKCOMPANYDETAILS"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".preview"
+            android:label="Help us do better"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Load_Form"
+            android:label="Help us do better"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.LOAD_FORM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ChooseType"
+            android:label="Choose Type"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.CHOOSETYPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".AddQuestion"
+            android:label="Add Question"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.ADDQUESTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Take Back</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="string_array_name">
+        <item>Rating</item>
+        <item>Smileys</item>
+        <item>Dichotomous (Yes/No)</item>
+        <item>Single Choice Question</item>
+        <item>Checklist</item>
+        <!--<item>Descriptive Question</item>-->
+    </string-array>
+
+    <string-array name="QIds">
+        <item>RA</item>
+        <item>SM</item>
+        <item>DI</item>
+        <item>SC</item>
+        <item>CH</item>
+        <item>DE</item>
+    </string-array>
+
+    <string-array name="companyParams">
+        <item>NAME</item>
+        <item>ADDRESS</item>
+        <item>PHONE</item>
+        <item>FAX</item>
+        <item>EMAIL</item>
+        <item>DESCRIPTION</item>
+        <item>LOGO</item>
+
+    </string-array>
+
+    <string-array name="userParams">
+        <item>USER</item>
+        <item>USER_EMAIL</item>
+        <item>USER_PHONE</item>
+        <item>USER_ADDRESS</item>
+
+    </string-array>
+
+    <string-array name="numbers">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+        <item>SIX</item>
+        <item>SEVEN</item>
+        <item>EIGHT</item>
+        <item>NINE</item>
+        <item>TEN</item>
+    </string-array>
+
+    <string-array name="numbers_ans">
+        <item>ANS_ONE</item>
+        <item>ANS_TWO</item>
+        <item>ANS_THREE</item>
+        <item>ANS_FOUR</item>
+        <item>ANS_FIVE</item>
+        <item>ANS_SIX</item>
+        <item>ANS_SEVEN</item>
+        <item>ANS_EIGHT</item>
+        <item>ANS_NINE</item>
+        <item>ANS_TEN</item>
+    </string-array>
+    <string name="question_hint">Type the question you want to ask</string>
+    <string name="company_details_addhint">Office Address</string>
+    <string name="company_details_phonehint">Phone No.</string>
+    <string name="company_details_faxhint">Fax</string>
+    <string name="company_details_emailhint">Email Address</string>
+    <string name="company_details_deschint">Description or Tagline</string>
+    <string name="company_details_namehint">Company Name</string>
+
+    <string name="company_details_save_future">Save details for future use</string>
+
+    <string name="submit_url">http://jodiwaljay.5gbfree.com/submit_feedback.php</string>
+    <string name="get_url">http://jodiwaljay.5gbfree.com/getting_form.php</string>
+    <string name="pin_url">http://jodiwaljay.5gbfree.com/setting_pin.php</string>
+    <string name="create_url">http://jodiwaljay.5gbfree.com/admin_create_form.php</string>
+
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:fitsSystemWindows="true"
+    tools:context="com.elegance.feedback.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/layout_form"
+                    android:background="@drawable/layout_corner"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:id="@+id/spinnerCompany"
+                        android:layout_margin="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal">
+
+                        <Button
+                            android:text="Add Question"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:textSize="22sp"
+                            android:layout_width="170dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/buttonshape"
+                            android:textAllCaps="false"
+                            android:id="@+id/fabForm"
+
+                             />
+
+
+                        <Button
+                            android:id="@+id/prev"
+                            android:text="Preview"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:textSize="22sp"
+                            android:layout_width="130dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonshape"
+                            android:textAllCaps="false" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edUnique"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:inputType="phone"
+                        android:hint="Enter the Unique Id for form"/>
+
+
+                    <Button
+                        android:id="@+id/saveForm"
+                        android:text="Save The Form"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/buttonshape"
+                        android:textAllCaps="false" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edPin"
+                        android:inputType="phone"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="Enter Pin"/>
+
+
+                    <Button
+                        android:id="@+id/GeneratePin"
+                        android:text="Generate Pin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:paddingLeft="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/buttonshape"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/bLoadForm"
+                        android:text="Load Form"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/buttonshape"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/briefcase"
+                android:id="@+id/bCreateCompany"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Create Company"
+                android:layout_marginTop="7dp"
+                android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:inputType="none"
+                    android:id="@+id/bSurveyOne"
+                    android:textSize="25sp"
+                    android:text="Generate\nPin"
+                    android:elevation="5dp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/survey_button_one"
+                    android:textColor="#ffffff"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:inputType="none"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_toRightOf="@id/bSurveyOne"
+                    android:layout_toEndOf="@id/bSurveyOne"
+                    android:textSize="25sp"
+                    android:elevation="5dp"
+                    android:text="Create\nForm"
+                    android:id="@+id/bSurveyTwo"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/survey_button_two" />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:inputType="none"
+                    android:layout_below="@id/bSurveyOne"
+                    android:textSize="25sp"
+                    android:elevation="5dp"
+                    android:text="Load\nForm"
+                    android:textAllCaps="false"
+                    android:id="@+id/bSurveyThree"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/survey_button_three" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
